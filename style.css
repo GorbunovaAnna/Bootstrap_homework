@@ -1,0 +1,39 @@
+.card-container{
+    background: transparent;
+}
+.card{
+    background: #fff;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.first-screen{
+    height: 100vh;
+    background-image: url("img/1633756467_25-mykaleidoscope-ru-p-divan-sinego-tsveta-v-interere-interer-kra-25.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(204, 204, 204, 0.463);
+    margin: 0;
+}
+
+.carousel-caption h5,
+.carousel-caption p{
+    text-shadow: 2px 2px 2px #fff;
+}
+
+@media(max-width:768px){
+    .filter-products{
+        display: none;
+    }
+}
